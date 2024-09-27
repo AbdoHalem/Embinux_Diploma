@@ -1,0 +1,28 @@
+\doxysection{D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\+Temp\+\_\+\+Sensor.hpp}
+\hypertarget{_temp___sensor_8hpp_source}{}\label{_temp___sensor_8hpp_source}\mbox{\hyperlink{_temp___sensor_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_\_TEMP\_SENSOR\_\_H\_\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_\_TEMP\_SENSOR\_\_H\_\_}}
+\DoxyCodeLine{00015\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_sensor_8hpp}{Sensor.hpp}}"{}}}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#define\ THRESHOLD\_TEMPERATURE\ \ \ \ \ \ \ \ (unsigned\ int)90}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#define\ SAFE\_TEMPERATURE\ \ \ \ \ \ \ \ \ \ \ \ \ (unsigned\ int)70}}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_temp___sensor}{Temp\_Sensor}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_sensor}{Sensor}}\ \{}
+\DoxyCodeLine{00029\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ temperature\_;\ \ \ \ \ \ }
+\DoxyCodeLine{00031\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{comment}{/*\ Member\ Initialize\ Constructor\ */}}
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{class_temp___sensor_aafb73d9de5df77e7b8067149502b4199}{Temp\_Sensor}}();}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{comment}{/*\ Default\ Destructor\ */}}
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{class_temp___sensor_ab532dd50e2840567a636b8fa62d26b69}{\string~Temp\_Sensor}}();}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{comment}{/*\ Setters\ and\ Getters\ */}}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{comment}{/*\ Get\ the\ temperature\ value\ */}}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_temp___sensor_a647648bc929efc1560a958dd49f2ecaf}{getValue}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{comment}{/*\ Update\ the\ temperature\ value\ */}}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_temp___sensor_a4b2afd5af5e16424c0fdef7c273f48a0}{update}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00041\ \};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#endif\ \ }}
+
+\end{DoxyCode}

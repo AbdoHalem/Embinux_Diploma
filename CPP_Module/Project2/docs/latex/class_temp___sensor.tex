@@ -1,0 +1,113 @@
+\doxysection{Temp\+\_\+\+Sensor Class Reference}
+\hypertarget{class_temp___sensor}{}\label{class_temp___sensor}\index{Temp\_Sensor@{Temp\_Sensor}}
+
+
+This class is for the car\textquotesingle{}s temperature sensor.  
+
+
+
+
+{\ttfamily \#include $<$Temp\+\_\+\+Sensor.\+hpp$>$}
+
+
+
+Inheritance diagram for Temp\+\_\+\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{class_temp___sensor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Temp\+\_\+\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=170pt]{class_temp___sensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_temp___sensor_aafb73d9de5df77e7b8067149502b4199}{Temp\+\_\+\+Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_temp___sensor_aafb73d9de5df77e7b8067149502b4199}{Temp\+\_\+\+Sensor\+::\+Temp\+\_\+\+Sensor} object and initializes the temperature value with 12 celisius. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_temp___sensor_ab532dd50e2840567a636b8fa62d26b69}{\texorpdfstring{$\sim$}{\string~}\+Temp\+\_\+\+Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxylink{class_temp___sensor_aafb73d9de5df77e7b8067149502b4199}{Temp\+\_\+\+Sensor\+::\+Temp\+\_\+\+Sensor} object. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_temp___sensor_a647648bc929efc1560a958dd49f2ecaf}{get\+Value}} () const override
+\begin{DoxyCompactList}\small\item\em Virtual function to get the temperature value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_temp___sensor_a4b2afd5af5e16424c0fdef7c273f48a0}{update}} () override
+\begin{DoxyCompactList}\small\item\em Virtual function to update the temperature value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_sensor}{Sensor}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sensor_a342d6d11ef572c8cba92cb76fb1a294b}{Sensor}} ()
+\item 
+\mbox{\hyperlink{class_sensor_aee8c70e7ef05ce65e7ee33686b5d7db2}{\texorpdfstring{$\sim$}{\string~}\+Sensor}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is for the car\textquotesingle{}s temperature sensor. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_temp___sensor_aafb73d9de5df77e7b8067149502b4199}\index{Temp\_Sensor@{Temp\_Sensor}!Temp\_Sensor@{Temp\_Sensor}}
+\index{Temp\_Sensor@{Temp\_Sensor}!Temp\_Sensor@{Temp\_Sensor}}
+\doxysubsubsection{\texorpdfstring{Temp\_Sensor()}{Temp\_Sensor()}}
+{\footnotesize\ttfamily \label{class_temp___sensor_aafb73d9de5df77e7b8067149502b4199} 
+Temp\+\_\+\+Sensor\+::\+Temp\+\_\+\+Sensor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_temp___sensor_aafb73d9de5df77e7b8067149502b4199}{Temp\+\_\+\+Sensor\+::\+Temp\+\_\+\+Sensor} object and initializes the temperature value with 12 celisius. 
+
+Member Initialize Constructor \Hypertarget{class_temp___sensor_ab532dd50e2840567a636b8fa62d26b69}\index{Temp\_Sensor@{Temp\_Sensor}!````~Temp\_Sensor@{\texorpdfstring{$\sim$}{\string~}Temp\_Sensor}}
+\index{````~Temp\_Sensor@{\texorpdfstring{$\sim$}{\string~}Temp\_Sensor}!Temp\_Sensor@{Temp\_Sensor}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Temp\_Sensor()}{\string~Temp\_Sensor()}}
+{\footnotesize\ttfamily \label{class_temp___sensor_ab532dd50e2840567a636b8fa62d26b69} 
+Temp\+\_\+\+Sensor\+::\texorpdfstring{$\sim$}{\string~}\+Temp\+\_\+\+Sensor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destroy the \doxylink{class_temp___sensor_aafb73d9de5df77e7b8067149502b4199}{Temp\+\_\+\+Sensor\+::\+Temp\+\_\+\+Sensor} object. 
+
+Default Destructor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_temp___sensor_a647648bc929efc1560a958dd49f2ecaf}\index{Temp\_Sensor@{Temp\_Sensor}!getValue@{getValue}}
+\index{getValue@{getValue}!Temp\_Sensor@{Temp\_Sensor}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily \label{class_temp___sensor_a647648bc929efc1560a958dd49f2ecaf} 
+unsigned int Temp\+\_\+\+Sensor\+::get\+Value (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual function to get the temperature value. 
+
+\begin{DoxyReturn}{Returns}
+unsigned int \+: The car temperature 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_sensor}{Sensor}}.
+
+\Hypertarget{class_temp___sensor_a4b2afd5af5e16424c0fdef7c273f48a0}\index{Temp\_Sensor@{Temp\_Sensor}!update@{update}}
+\index{update@{update}!Temp\_Sensor@{Temp\_Sensor}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{class_temp___sensor_a4b2afd5af5e16424c0fdef7c273f48a0} 
+void Temp\+\_\+\+Sensor\+::update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual function to update the temperature value. 
+
+
+
+Implements \mbox{\hyperlink{class_sensor}{Sensor}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_temp___sensor_8hpp}{Temp\+\_\+\+Sensor.\+hpp}}\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_temp___sensor_8cpp}{Temp\+\_\+\+Sensor.\+cpp}}\end{DoxyCompactItemize}

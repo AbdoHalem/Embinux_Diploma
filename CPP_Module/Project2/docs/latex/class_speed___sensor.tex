@@ -1,0 +1,130 @@
+\doxysection{Speed\+\_\+\+Sensor Class Reference}
+\hypertarget{class_speed___sensor}{}\label{class_speed___sensor}\index{Speed\_Sensor@{Speed\_Sensor}}
+
+
+This class is for the car\textquotesingle{}s speed sensor.  
+
+
+
+
+{\ttfamily \#include $<$Speed\+\_\+\+Sensor.\+hpp$>$}
+
+
+
+Inheritance diagram for Speed\+\_\+\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{class_speed___sensor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Speed\+\_\+\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=173pt]{class_speed___sensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_speed___sensor_ae28b6ef7eff9d3878a3c27f49ed98cfe}{Speed\+\_\+\+Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_speed___sensor_ae28b6ef7eff9d3878a3c27f49ed98cfe}{Speed\+\_\+\+Sensor\+::\+Speed\+\_\+\+Sensor} object and initializes the speed value with zero. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_speed___sensor_a66e443082395c605e5d05c7a3d1cad32}{\texorpdfstring{$\sim$}{\string~}\+Speed\+\_\+\+Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxylink{class_speed___sensor_ae28b6ef7eff9d3878a3c27f49ed98cfe}{Speed\+\_\+\+Sensor\+::\+Speed\+\_\+\+Sensor} object. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_speed___sensor_a04de5af86515d7041374bc806451f02e}{get\+Value}} () const override
+\begin{DoxyCompactList}\small\item\em Virtual function to get the speed value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_speed___sensor_a0618be8a6da203ac58f4e02b91a42cc8}{update}} () override
+\begin{DoxyCompactList}\small\item\em Virtual function to update the speed in range 0 to 250 Km/h. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_speed___sensor_a1b8087e7ee862cbee088cc79675c8d62}{control\+Speed}} (unsigned int speed)
+\begin{DoxyCompactList}\small\item\em Function to control the speed value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_sensor}{Sensor}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sensor_a342d6d11ef572c8cba92cb76fb1a294b}{Sensor}} ()
+\item 
+\mbox{\hyperlink{class_sensor_aee8c70e7ef05ce65e7ee33686b5d7db2}{\texorpdfstring{$\sim$}{\string~}\+Sensor}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is for the car\textquotesingle{}s speed sensor. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_speed___sensor_ae28b6ef7eff9d3878a3c27f49ed98cfe}\index{Speed\_Sensor@{Speed\_Sensor}!Speed\_Sensor@{Speed\_Sensor}}
+\index{Speed\_Sensor@{Speed\_Sensor}!Speed\_Sensor@{Speed\_Sensor}}
+\doxysubsubsection{\texorpdfstring{Speed\_Sensor()}{Speed\_Sensor()}}
+{\footnotesize\ttfamily \label{class_speed___sensor_ae28b6ef7eff9d3878a3c27f49ed98cfe} 
+Speed\+\_\+\+Sensor\+::\+Speed\+\_\+\+Sensor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_speed___sensor_ae28b6ef7eff9d3878a3c27f49ed98cfe}{Speed\+\_\+\+Sensor\+::\+Speed\+\_\+\+Sensor} object and initializes the speed value with zero. 
+
+Member Initialize Constructor \Hypertarget{class_speed___sensor_a66e443082395c605e5d05c7a3d1cad32}\index{Speed\_Sensor@{Speed\_Sensor}!````~Speed\_Sensor@{\texorpdfstring{$\sim$}{\string~}Speed\_Sensor}}
+\index{````~Speed\_Sensor@{\texorpdfstring{$\sim$}{\string~}Speed\_Sensor}!Speed\_Sensor@{Speed\_Sensor}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Speed\_Sensor()}{\string~Speed\_Sensor()}}
+{\footnotesize\ttfamily \label{class_speed___sensor_a66e443082395c605e5d05c7a3d1cad32} 
+Speed\+\_\+\+Sensor\+::\texorpdfstring{$\sim$}{\string~}\+Speed\+\_\+\+Sensor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destroy the \doxylink{class_speed___sensor_ae28b6ef7eff9d3878a3c27f49ed98cfe}{Speed\+\_\+\+Sensor\+::\+Speed\+\_\+\+Sensor} object. 
+
+Default Destructor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_speed___sensor_a1b8087e7ee862cbee088cc79675c8d62}\index{Speed\_Sensor@{Speed\_Sensor}!controlSpeed@{controlSpeed}}
+\index{controlSpeed@{controlSpeed}!Speed\_Sensor@{Speed\_Sensor}}
+\doxysubsubsection{\texorpdfstring{controlSpeed()}{controlSpeed()}}
+{\footnotesize\ttfamily \label{class_speed___sensor_a1b8087e7ee862cbee088cc79675c8d62} 
+void Speed\+\_\+\+Sensor\+::control\+Speed (\begin{DoxyParamCaption}\item[{unsigned int}]{speed}{}\end{DoxyParamCaption})}
+
+
+
+Function to control the speed value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em speed} & \+: The new speed of the car \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_speed___sensor_a04de5af86515d7041374bc806451f02e}\index{Speed\_Sensor@{Speed\_Sensor}!getValue@{getValue}}
+\index{getValue@{getValue}!Speed\_Sensor@{Speed\_Sensor}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily \label{class_speed___sensor_a04de5af86515d7041374bc806451f02e} 
+unsigned int Speed\+\_\+\+Sensor\+::get\+Value (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual function to get the speed value. 
+
+\begin{DoxyReturn}{Returns}
+unsigned int \+: The car speed 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_sensor}{Sensor}}.
+
+\Hypertarget{class_speed___sensor_a0618be8a6da203ac58f4e02b91a42cc8}\index{Speed\_Sensor@{Speed\_Sensor}!update@{update}}
+\index{update@{update}!Speed\_Sensor@{Speed\_Sensor}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{class_speed___sensor_a0618be8a6da203ac58f4e02b91a42cc8} 
+void Speed\+\_\+\+Sensor\+::update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual function to update the speed in range 0 to 250 Km/h. 
+
+
+
+Implements \mbox{\hyperlink{class_sensor}{Sensor}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_speed___sensor_8hpp}{Speed\+\_\+\+Sensor.\+hpp}}\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_speed___sensor_8cpp}{Speed\+\_\+\+Sensor.\+cpp}}\end{DoxyCompactItemize}

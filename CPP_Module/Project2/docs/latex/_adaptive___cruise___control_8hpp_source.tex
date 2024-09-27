@@ -1,0 +1,34 @@
+\doxysection{D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\+Adaptive\+\_\+\+Cruise\+\_\+\+Control.hpp}
+\hypertarget{_adaptive___cruise___control_8hpp_source}{}\label{_adaptive___cruise___control_8hpp_source}\mbox{\hyperlink{_adaptive___cruise___control_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_\_ADAPTIVE\_CRUISE\_CONTROL\_\_H\_\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_\_ADAPTIVE\_CRUISE\_CONTROL\_\_H\_\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_speed___sensor_8hpp}{Speed\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_temp___sensor_8hpp}{Temp\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_radar___sensor_8hpp}{Radar\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_logger_8hpp}{Logger.hpp}}"{}}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00025\ \textcolor{preprocessor}{\#define\ SLOW\_CAR\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (unsigned\ int)50}}
+\DoxyCodeLine{00026\ \textcolor{preprocessor}{\#define\ STOP\_CAR\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (unsigned\ int)0}}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00033\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_adaptive___cruise___control}{Adaptive\_Cruise\_Control}}}
+\DoxyCodeLine{00034\ \{}
+\DoxyCodeLine{00035\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00036\ \ \ \ \ \mbox{\hyperlink{class_speed___sensor}{Speed\_Sensor}}\ *speed\_sensor;}
+\DoxyCodeLine{00037\ \ \ \ \ \mbox{\hyperlink{class_radar___sensor}{Radar\_Sensor}}\ *radar\_sensor;}
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{class_temp___sensor}{Temp\_Sensor}}\ *temp\_sensor;}
+\DoxyCodeLine{00039\ \ \ \ \ \mbox{\hyperlink{class_logger}{Logger}}\ *logger;}
+\DoxyCodeLine{00040\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{comment}{/*\ Parameterized\ Constructor\ */}}
+\DoxyCodeLine{00042\ \ \ \ \ \mbox{\hyperlink{class_adaptive___cruise___control_a0852eb0ebb164c92cfbda1d5569c5cdc}{Adaptive\_Cruise\_Control}}(\mbox{\hyperlink{class_speed___sensor}{Speed\_Sensor}}\ *speed\_sensor,\ \mbox{\hyperlink{class_radar___sensor}{Radar\_Sensor}}\ *radar\_sensor,\ \mbox{\hyperlink{class_temp___sensor}{Temp\_Sensor}}\ *temp\_sensor)\ ;}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{comment}{/*\ Default\ Destructor\ */}}
+\DoxyCodeLine{00044\ \ \ \ \ \mbox{\hyperlink{class_adaptive___cruise___control_acc38b604b9a2b339da5de929bf225499}{\string~Adaptive\_Cruise\_Control}}();}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{comment}{/*\ Methods\ */}}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_adaptive___cruise___control_ad66e8a72a451db584d75999523becfed}{cruiseControl}}();}
+\DoxyCodeLine{00047\ \};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00050\ \textcolor{preprocessor}{\#endif\ \ }}
+
+\end{DoxyCode}

@@ -1,0 +1,113 @@
+\doxysection{Radar\+\_\+\+Sensor Class Reference}
+\hypertarget{class_radar___sensor}{}\label{class_radar___sensor}\index{Radar\_Sensor@{Radar\_Sensor}}
+
+
+This class is for the radar sensor.  
+
+
+
+
+{\ttfamily \#include $<$Radar\+\_\+\+Sensor.\+hpp$>$}
+
+
+
+Inheritance diagram for Radar\+\_\+\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{class_radar___sensor__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Radar\+\_\+\+Sensor\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{class_radar___sensor__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_radar___sensor_a0249e451f05f6e2849cfdc90c59d1276}{Radar\+\_\+\+Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_radar___sensor_a0249e451f05f6e2849cfdc90c59d1276}{Radar\+\_\+\+Sensor\+::\+Radar\+\_\+\+Sensor} object and initializes the distance value with zero. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_radar___sensor_a57dc403c9847a3f6be5d12940783e4df}{\texorpdfstring{$\sim$}{\string~}\+Radar\+\_\+\+Sensor}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxylink{class_radar___sensor_a0249e451f05f6e2849cfdc90c59d1276}{Radar\+\_\+\+Sensor\+::\+Radar\+\_\+\+Sensor} object. \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_radar___sensor_a2027ec46226393bbeb9a0623b48c7b1e}{get\+Value}} () const override
+\begin{DoxyCompactList}\small\item\em Virtual function to get the distance between the car and front object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_radar___sensor_a1809213b2a406ea299a0b4764be30762}{update}} () override
+\begin{DoxyCompactList}\small\item\em Virtual function to update the distance value. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_sensor}{Sensor}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sensor_a342d6d11ef572c8cba92cb76fb1a294b}{Sensor}} ()
+\item 
+\mbox{\hyperlink{class_sensor_aee8c70e7ef05ce65e7ee33686b5d7db2}{\texorpdfstring{$\sim$}{\string~}\+Sensor}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is for the radar sensor. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_radar___sensor_a0249e451f05f6e2849cfdc90c59d1276}\index{Radar\_Sensor@{Radar\_Sensor}!Radar\_Sensor@{Radar\_Sensor}}
+\index{Radar\_Sensor@{Radar\_Sensor}!Radar\_Sensor@{Radar\_Sensor}}
+\doxysubsubsection{\texorpdfstring{Radar\_Sensor()}{Radar\_Sensor()}}
+{\footnotesize\ttfamily \label{class_radar___sensor_a0249e451f05f6e2849cfdc90c59d1276} 
+Radar\+\_\+\+Sensor\+::\+Radar\+\_\+\+Sensor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_radar___sensor_a0249e451f05f6e2849cfdc90c59d1276}{Radar\+\_\+\+Sensor\+::\+Radar\+\_\+\+Sensor} object and initializes the distance value with zero. 
+
+Member Intialize Constructor \Hypertarget{class_radar___sensor_a57dc403c9847a3f6be5d12940783e4df}\index{Radar\_Sensor@{Radar\_Sensor}!````~Radar\_Sensor@{\texorpdfstring{$\sim$}{\string~}Radar\_Sensor}}
+\index{````~Radar\_Sensor@{\texorpdfstring{$\sim$}{\string~}Radar\_Sensor}!Radar\_Sensor@{Radar\_Sensor}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Radar\_Sensor()}{\string~Radar\_Sensor()}}
+{\footnotesize\ttfamily \label{class_radar___sensor_a57dc403c9847a3f6be5d12940783e4df} 
+Radar\+\_\+\+Sensor\+::\texorpdfstring{$\sim$}{\string~}\+Radar\+\_\+\+Sensor (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destroy the \doxylink{class_radar___sensor_a0249e451f05f6e2849cfdc90c59d1276}{Radar\+\_\+\+Sensor\+::\+Radar\+\_\+\+Sensor} object. 
+
+Default Destructor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_radar___sensor_a2027ec46226393bbeb9a0623b48c7b1e}\index{Radar\_Sensor@{Radar\_Sensor}!getValue@{getValue}}
+\index{getValue@{getValue}!Radar\_Sensor@{Radar\_Sensor}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily \label{class_radar___sensor_a2027ec46226393bbeb9a0623b48c7b1e} 
+unsigned int Radar\+\_\+\+Sensor\+::get\+Value (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual function to get the distance between the car and front object. 
+
+\begin{DoxyReturn}{Returns}
+unsigned int\+: The distance between the car and front object 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_sensor}{Sensor}}.
+
+\Hypertarget{class_radar___sensor_a1809213b2a406ea299a0b4764be30762}\index{Radar\_Sensor@{Radar\_Sensor}!update@{update}}
+\index{update@{update}!Radar\_Sensor@{Radar\_Sensor}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily \label{class_radar___sensor_a1809213b2a406ea299a0b4764be30762} 
+void Radar\+\_\+\+Sensor\+::update (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Virtual function to update the distance value. 
+
+
+
+Implements \mbox{\hyperlink{class_sensor}{Sensor}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_radar___sensor_8hpp}{Radar\+\_\+\+Sensor.\+hpp}}\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_radar___sensor_8cpp}{Radar\+\_\+\+Sensor.\+cpp}}\end{DoxyCompactItemize}

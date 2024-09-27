@@ -1,0 +1,46 @@
+<map id="D:/Engineering/Embedded_Linux/Abdulaal_Diploma/CPP_Module/OOP/Tasks/Project2/Code/Vehicle.hpp" name="D:/Engineering/Embedded_Linux/Abdulaal_Diploma/CPP_Module/OOP/Tasks/Project2/Code/Vehicle.hpp">
+<area shape="rect" id="Node000001" title="This is a header file for Vehicle class." alt="" coords="304,5,531,80"/>
+<area shape="rect" id="Node000002" href="$_speed___sensor_8hpp.html" title="This is a header file for Speed_Sensor class." alt="" coords="5,203,137,229"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="305,58,259,68,211,83,165,103,123,130,99,158,82,190,78,188,94,155,120,126,163,99,209,78,257,63,304,53"/>
+<area shape="rect" id="Node000006" href="$_temp___sensor_8hpp.html" title="This is a header file for Temp_Sensor class." alt="" coords="314,203,441,229"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="465,79,480,96,491,115,495,136,489,156,467,181,438,198,436,194,463,177,485,153,490,135,486,117,476,99,461,82"/>
+<area shape="rect" id="Node000007" href="$_radar___sensor_8hpp.html" title="This is a header file for Radar_Sensor class." alt="" coords="161,203,290,229"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="305,66,201,93,160,110,134,130,130,138,129,147,139,164,157,180,181,193,179,198,154,184,134,167,124,148,125,137,130,126,157,106,199,88,303,61"/>
+<area shape="rect" id="Node000008" href="$_battery___sensor_8hpp.html" title="This is a header file for Battery_Sensor class." alt="" coords="466,203,602,229"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="468,79,491,101,511,127,524,157,532,187,527,188,519,159,506,129,487,104,465,82"/>
+<area shape="rect" id="Node000009" href="$_adaptive___cruise___control_8hpp.html" title="This is a header file for Adaptive_Cruise_Control class." alt="" coords="145,128,336,155"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="351,83,278,123,275,118,349,78"/>
+<area shape="rect" id="Node000010" href="$_logger_8hpp.html" title="This is a header file for Logger class." alt="" coords="626,203,711,229"/>
+<area shape="poly" id="edge28_Node000001_Node000010" title=" " alt="" coords="473,78,639,192,636,196,470,83"/>
+<area shape="rect" id="Node000016" href="$_diagnostics_8hpp.html" title="This is a header file for Diagnostics class." alt="" coords="360,128,475,155"/>
+<area shape="poly" id="edge22_Node000001_Node000016" title=" " alt="" coords="420,80,420,112,415,112,415,80"/>
+<area shape="rect" id="Node000003" href="$_sensor_8hpp.html" title="This is a header file for Sensor class." alt="" coords="313,277,400,304"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,227,298,272,297,277,120,232"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="531,352,603,379"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="394,302,517,344,515,349,392,307"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="327,352,386,379"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="359,305,359,336,354,336,354,305"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="377,231,367,263,362,262,371,229"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="250,228,321,267,319,272,247,232"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="504,232,402,274,400,269,502,227"/>
+<area shape="poly" id="edge12_Node000009_Node000002" title=" " alt="" coords="212,158,116,199,114,194,210,153"/>
+<area shape="poly" id="edge13_Node000009_Node000006" title=" " alt="" coords="265,153,341,193,339,197,263,158"/>
+<area shape="poly" id="edge14_Node000009_Node000007" title=" " alt="" coords="240,156,234,188,229,187,235,155"/>
+<area shape="poly" id="edge15_Node000009_Node000010" title=" " alt="" coords="329,153,611,200,610,205,328,158"/>
+<area shape="poly" id="edge16_Node000010_Node000004" title=" " alt="" coords="674,229,677,265,674,286,667,305,645,330,618,347,615,343,642,326,662,303,669,284,671,265,668,230"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="727,277,780,304"/>
+<area shape="poly" id="edge17_Node000010_Node000011" title=" " alt="" coords="685,228,729,265,726,269,681,232"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="805,277,870,304"/>
+<area shape="poly" id="edge18_Node000010_Node000012" title=" " alt="" coords="699,227,795,268,793,273,697,232"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="424,277,484,304"/>
+<area shape="poly" id="edge19_Node000010_Node000013" title=" " alt="" coords="632,232,499,277,498,272,630,227"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="508,277,562,304"/>
+<area shape="poly" id="edge20_Node000010_Node000014" title=" " alt="" coords="646,232,573,272,570,267,644,228"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="586,277,652,304"/>
+<area shape="poly" id="edge21_Node000010_Node000015" title=" " alt="" coords="662,231,638,266,634,263,658,228"/>
+<area shape="poly" id="edge23_Node000016_Node000002" title=" " alt="" coords="360,157,147,202,146,196,359,152"/>
+<area shape="poly" id="edge25_Node000016_Node000006" title=" " alt="" coords="413,157,394,190,390,188,408,154"/>
+<area shape="poly" id="edge24_Node000016_Node000007" title=" " alt="" coords="385,158,274,199,272,194,383,153"/>
+<area shape="poly" id="edge26_Node000016_Node000008" title=" " alt="" coords="439,153,502,192,499,196,436,157"/>
+<area shape="poly" id="edge27_Node000016_Node000010" title=" " alt="" coords="462,153,611,195,610,201,461,158"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$class_sensor.html" title="This is an interface Class provides the main methods inherited in all sensors." alt="" coords="5,81,68,108"/>
+<area shape="rect" id="Node000001" href="$class_battery___sensor.html" title="This class is for the car battery." alt="" coords="116,5,227,32"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="68,70,114,42,137,30,139,35,117,46,71,75"/>
+<area shape="rect" id="Node000002" href="$class_radar___sensor.html" title="This class is for the radar sensor." alt="" coords="119,56,224,83"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="82,83,118,77,119,82,83,89"/>
+<area shape="rect" id="Node000003" href="$class_speed___sensor.html" title="This class is for the car&#39;s speed sensor." alt="" coords="118,107,224,133"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="83,101,118,107,117,113,82,106"/>
+<area shape="rect" id="Node000004" href="$class_temp___sensor.html" title="This class is for the car&#39;s temperature sensor." alt="" coords="121,157,222,184"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="71,114,117,143,139,154,137,159,114,148,68,119"/>
+</map>

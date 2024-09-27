@@ -1,0 +1,11 @@
+<map id="Sensor" name="Sensor">
+<area shape="rect" id="Node000001" title="This is an interface Class provides the main methods inherited in all sensors." alt="" coords="253,5,335,139"/>
+<area shape="rect" id="Node000002" href="$class_battery___sensor.html" title="This class is for the car battery." alt="" coords="5,187,135,341"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="243,114,149,189,136,200,133,196,146,185,240,109"/>
+<area shape="rect" id="Node000003" href="$class_radar___sensor.html" title="This class is for the radar sensor." alt="" coords="159,197,282,331"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="266,154,248,198,243,196,261,152"/>
+<area shape="rect" id="Node000004" href="$class_speed___sensor.html" title="This class is for the car&#39;s speed sensor." alt="" coords="307,187,431,341"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,152,341,186,336,188,323,154"/>
+<area shape="rect" id="Node000005" href="$class_temp___sensor.html" title="This class is for the car&#39;s temperature sensor." alt="" coords="455,197,575,331"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="348,108,445,185,457,196,454,200,442,189,345,112"/>
+</map>

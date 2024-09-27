@@ -1,0 +1,165 @@
+\doxysection{Diagnostics Class Reference}
+\hypertarget{class_diagnostics}{}\label{class_diagnostics}\index{Diagnostics@{Diagnostics}}
+
+
+This class is for car diagnostics.  
+
+
+
+
+{\ttfamily \#include $<$Diagnostics.\+hpp$>$}
+
+
+
+Collaboration diagram for Diagnostics\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_diagnostics__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_diagnostics_a79b857c3b41d77d08729e0c23c5c91fa}{Diagnostics}} (\mbox{\hyperlink{class_speed___sensor}{Speed\+\_\+\+Sensor}} \texorpdfstring{$\ast$}{*}speed, \mbox{\hyperlink{class_radar___sensor}{Radar\+\_\+\+Sensor}} \texorpdfstring{$\ast$}{*}radar, \mbox{\hyperlink{class_temp___sensor}{Temp\+\_\+\+Sensor}} \texorpdfstring{$\ast$}{*}temp, \mbox{\hyperlink{class_battery___sensor}{Battery\+\_\+\+Sensor}} \texorpdfstring{$\ast$}{*}batt)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{class_diagnostics}{Diagnostics}\+:\+: \doxylink{class_diagnostics}{Diagnostics} object and initializes the members values with the given arguments. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_diagnostics_ad05cd98138d8ef3a0c1284412fbddd6b}{\texorpdfstring{$\sim$}{\string~}\+Diagnostics}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxylink{class_diagnostics}{Diagnostics}\+:\+: \doxylink{class_diagnostics}{Diagnostics} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_diagnostics_a0784d25e56ed4ed949f24357384c6992}{run\+Diagnostics}} ()
+\begin{DoxyCompactList}\small\item\em Function to run all car diagnostics. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_diagnostics_ab99cf73beb641457aa0819f9c34d308b}{check\+Speed}} ()
+\begin{DoxyCompactList}\small\item\em Function to check speed. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_diagnostics_aaf79345706206d30b5ecc80bd48f9d35}{check\+Distance}} ()
+\begin{DoxyCompactList}\small\item\em Function to check the distance between the car and front objects. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_diagnostics_a6951d6c46441f61e3de97e02e22962e3}{check\+Temperature}} ()
+\begin{DoxyCompactList}\small\item\em Function to check the car temperature. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_diagnostics_a46267b6af869d3886001d7c5fc393a1f}{check\+Battery}} ()
+\begin{DoxyCompactList}\small\item\em Function to check battery-\/charge level. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is for car diagnostics. 
+
+It runs car diagnostics which checks car speed, temperature, safe distance, and battery level 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_diagnostics_a79b857c3b41d77d08729e0c23c5c91fa}\index{Diagnostics@{Diagnostics}!Diagnostics@{Diagnostics}}
+\index{Diagnostics@{Diagnostics}!Diagnostics@{Diagnostics}}
+\doxysubsubsection{\texorpdfstring{Diagnostics()}{Diagnostics()}}
+{\footnotesize\ttfamily \label{class_diagnostics_a79b857c3b41d77d08729e0c23c5c91fa} 
+Diagnostics\+::\+Diagnostics (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_speed___sensor}{Speed\+\_\+\+Sensor}} \texorpdfstring{$\ast$}{*}}]{speed}{, }\item[{\mbox{\hyperlink{class_radar___sensor}{Radar\+\_\+\+Sensor}} \texorpdfstring{$\ast$}{*}}]{radar}{, }\item[{\mbox{\hyperlink{class_temp___sensor}{Temp\+\_\+\+Sensor}} \texorpdfstring{$\ast$}{*}}]{temp}{, }\item[{\mbox{\hyperlink{class_battery___sensor}{Battery\+\_\+\+Sensor}} \texorpdfstring{$\ast$}{*}}]{batt}{}\end{DoxyParamCaption})}
+
+
+
+Construct a new \doxylink{class_diagnostics}{Diagnostics}\+:\+: \doxylink{class_diagnostics}{Diagnostics} object and initializes the members values with the given arguments. 
+
+Parameterized Constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em speed} & Pointer to the \doxylink{class_speed___sensor}{Speed\+\_\+\+Sensor} object \\
+\hline
+{\em radar} & Pointer to the \doxylink{class_radar___sensor}{Radar\+\_\+\+Sensor} object \\
+\hline
+{\em temp} & Pointer to the \doxylink{class_temp___sensor}{Temp\+\_\+\+Sensor} object \\
+\hline
+{\em batt} & Pointer to the \doxylink{class_battery___sensor}{Battery\+\_\+\+Sensor} object \\
+\hline
+\end{DoxyParams}
+\texorpdfstring{$<$}{<} Singleton logger\Hypertarget{class_diagnostics_ad05cd98138d8ef3a0c1284412fbddd6b}\index{Diagnostics@{Diagnostics}!````~Diagnostics@{\texorpdfstring{$\sim$}{\string~}Diagnostics}}
+\index{````~Diagnostics@{\texorpdfstring{$\sim$}{\string~}Diagnostics}!Diagnostics@{Diagnostics}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Diagnostics()}{\string~Diagnostics()}}
+{\footnotesize\ttfamily \label{class_diagnostics_ad05cd98138d8ef3a0c1284412fbddd6b} 
+Diagnostics\+::\texorpdfstring{$\sim$}{\string~}\+Diagnostics (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destroy the \doxylink{class_diagnostics}{Diagnostics}\+:\+: \doxylink{class_diagnostics}{Diagnostics} object. 
+
+Default Destructor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_diagnostics_a46267b6af869d3886001d7c5fc393a1f}\index{Diagnostics@{Diagnostics}!checkBattery@{checkBattery}}
+\index{checkBattery@{checkBattery}!Diagnostics@{Diagnostics}}
+\doxysubsubsection{\texorpdfstring{checkBattery()}{checkBattery()}}
+{\footnotesize\ttfamily \label{class_diagnostics_a46267b6af869d3886001d7c5fc393a1f} 
+bool Diagnostics\+::check\+Battery (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Function to check battery-\/charge level. 
+
+It gives alert to the driver if the battery level is higher than THRESHOLD\+\_\+\+LEVEL
+
+\begin{DoxyReturn}{Returns}
+true 
+
+false 
+\end{DoxyReturn}
+\Hypertarget{class_diagnostics_aaf79345706206d30b5ecc80bd48f9d35}\index{Diagnostics@{Diagnostics}!checkDistance@{checkDistance}}
+\index{checkDistance@{checkDistance}!Diagnostics@{Diagnostics}}
+\doxysubsubsection{\texorpdfstring{checkDistance()}{checkDistance()}}
+{\footnotesize\ttfamily \label{class_diagnostics_aaf79345706206d30b5ecc80bd48f9d35} 
+bool Diagnostics\+::check\+Distance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Function to check the distance between the car and front objects. 
+
+It gives alert to the driver if the distance is lower than SAFE\+\_\+\+DISTANCE
+
+\begin{DoxyReturn}{Returns}
+true\+: If the distance is in the safe range 
+
+false\+: If the distance lower than the SAFE\+\_\+\+DISTANCE 
+\end{DoxyReturn}
+\Hypertarget{class_diagnostics_ab99cf73beb641457aa0819f9c34d308b}\index{Diagnostics@{Diagnostics}!checkSpeed@{checkSpeed}}
+\index{checkSpeed@{checkSpeed}!Diagnostics@{Diagnostics}}
+\doxysubsubsection{\texorpdfstring{checkSpeed()}{checkSpeed()}}
+{\footnotesize\ttfamily \label{class_diagnostics_ab99cf73beb641457aa0819f9c34d308b} 
+bool Diagnostics\+::check\+Speed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Function to check speed. 
+
+It gives alert to the driver if the speed is higher than SAFE\+\_\+\+SPEED
+
+\begin{DoxyReturn}{Returns}
+true\+: If the speed is in the safe range 
+
+false\+: If the speed exceeds the SAFE\+\_\+\+SPEED 
+\end{DoxyReturn}
+\Hypertarget{class_diagnostics_a6951d6c46441f61e3de97e02e22962e3}\index{Diagnostics@{Diagnostics}!checkTemperature@{checkTemperature}}
+\index{checkTemperature@{checkTemperature}!Diagnostics@{Diagnostics}}
+\doxysubsubsection{\texorpdfstring{checkTemperature()}{checkTemperature()}}
+{\footnotesize\ttfamily \label{class_diagnostics_a6951d6c46441f61e3de97e02e22962e3} 
+bool Diagnostics\+::check\+Temperature (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Function to check the car temperature. 
+
+It gives alert to the driver if the temperature is higher than SAFE\+\_\+\+TEMPERATURE
+
+\begin{DoxyReturn}{Returns}
+true\+: If the car temperature is in the safe range 
+
+false\+: If the car temperature is higher than SAFE\+\_\+\+TEMPERATURE 
+\end{DoxyReturn}
+\Hypertarget{class_diagnostics_a0784d25e56ed4ed949f24357384c6992}\index{Diagnostics@{Diagnostics}!runDiagnostics@{runDiagnostics}}
+\index{runDiagnostics@{runDiagnostics}!Diagnostics@{Diagnostics}}
+\doxysubsubsection{\texorpdfstring{runDiagnostics()}{runDiagnostics()}}
+{\footnotesize\ttfamily \label{class_diagnostics_a0784d25e56ed4ed949f24357384c6992} 
+void Diagnostics\+::run\+Diagnostics (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Function to run all car diagnostics. 
+
+It checks the values of all car sensors and give alert to the driver if upnormal event happened 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_diagnostics_8hpp}{Diagnostics.\+hpp}}\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_diagnostics_8cpp}{Diagnostics.\+cpp}}\end{DoxyCompactItemize}

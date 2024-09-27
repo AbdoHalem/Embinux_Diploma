@@ -1,0 +1,29 @@
+\doxysection{D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\+Radar\+\_\+\+Sensor.hpp}
+\hypertarget{_radar___sensor_8hpp_source}{}\label{_radar___sensor_8hpp_source}\mbox{\hyperlink{_radar___sensor_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_\_RADAR\_SENSOR\_\_H\_\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_\_RADAR\_SENSOR\_\_H\_\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_sensor_8hpp}{Sensor.hpp}}"{}}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#define\ SAFE\_DISTANCE\ \ \ \ \ \ \ \ \ \ \ (unsigned\ int)5}}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00029\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_radar___sensor}{Radar\_Sensor}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_sensor}{Sensor}}\ \{}
+\DoxyCodeLine{00030\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ distance\_;}
+\DoxyCodeLine{00033\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{comment}{/*\ Member\ Intialize\ Constructor\ */}}
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{class_radar___sensor_a0249e451f05f6e2849cfdc90c59d1276}{Radar\_Sensor}}();}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{comment}{/*\ Default\ Destructor\ */}}
+\DoxyCodeLine{00037\ \ \ \ \ \mbox{\hyperlink{class_radar___sensor_a57dc403c9847a3f6be5d12940783e4df}{\string~Radar\_Sensor}}();}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{comment}{/*\ Setters\ and\ Getters\ */}}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{comment}{/*\ Get\ the\ distance\ value\ */}}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_radar___sensor_a2027ec46226393bbeb9a0623b48c7b1e}{getValue}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{comment}{/*\ Update\ the\ distance\ value\ */}}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_radar___sensor_a1809213b2a406ea299a0b4764be30762}{update}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00043\ \};}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ \textcolor{preprocessor}{\#endif\ \ }}
+
+\end{DoxyCode}

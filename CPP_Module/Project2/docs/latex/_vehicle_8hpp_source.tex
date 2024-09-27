@@ -1,0 +1,43 @@
+\doxysection{D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\+Vehicle.hpp}
+\hypertarget{_vehicle_8hpp_source}{}\label{_vehicle_8hpp_source}\mbox{\hyperlink{_vehicle_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_\_VEHICLE\_\_H\_\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_\_VEHICLE\_\_H\_\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_speed___sensor_8hpp}{Speed\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_temp___sensor_8hpp}{Temp\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_radar___sensor_8hpp}{Radar\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_battery___sensor_8hpp}{Battery\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00021\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_adaptive___cruise___control_8hpp}{Adaptive\_Cruise\_Control.hpp}}"{}}}
+\DoxyCodeLine{00022\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_diagnostics_8hpp}{Diagnostics.hpp}}"{}}}
+\DoxyCodeLine{00023\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_logger_8hpp}{Logger.hpp}}"{}}}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{comment}{/*\ Vehicle\ Class\ */}}
+\DoxyCodeLine{00031\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_vehicle}{Vehicle}}\ \{}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{comment}{/*\ Sensors\ */}}
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{class_speed___sensor}{Speed\_Sensor}}\ speed\_sensor;}
+\DoxyCodeLine{00044\ \ \ \ \ \mbox{\hyperlink{class_radar___sensor}{Radar\_Sensor}}\ radar\_sensor;}
+\DoxyCodeLine{00050\ \ \ \ \ \mbox{\hyperlink{class_temp___sensor}{Temp\_Sensor}}\ temp\_sensor;}
+\DoxyCodeLine{00056\ \ \ \ \ \mbox{\hyperlink{class_battery___sensor}{Battery\_Sensor}}\ battery;}
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{comment}{/*\ ECUs\ and\ Diagnostics\ */}}
+\DoxyCodeLine{00063\ \ \ \ \ \mbox{\hyperlink{class_adaptive___cruise___control}{Adaptive\_Cruise\_Control}}\ cruise\_control;}
+\DoxyCodeLine{00069\ \ \ \ \ \mbox{\hyperlink{class_diagnostics}{Diagnostics}}\ diagnostics;}
+\DoxyCodeLine{00075\ \ \ \ \ \mbox{\hyperlink{class_logger}{Logger}}\ *logger;}
+\DoxyCodeLine{00076\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{comment}{/*\ Delegation\ Constructor\ */}}
+\DoxyCodeLine{00078\ \ \ \ \ \mbox{\hyperlink{class_vehicle_abaad8187d9f2ede4fb8ea18de0a6764c}{Vehicle}}();}
+\DoxyCodeLine{00079\ \ \ \ \ \textcolor{comment}{/*\ Default\ Destructor\ */}}
+\DoxyCodeLine{00080\ \ \ \ \ \mbox{\hyperlink{class_vehicle_a61ab140c755b8e0e824d54117cf4546f}{\string~Vehicle}}();}
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{comment}{/*\ Update\ sensor\ readings\ */}}
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vehicle_ae70e5d04ffa041b4a3c289c55606fb65}{updateSensors}}();}
+\DoxyCodeLine{00083\ \ \ \ \ \textcolor{comment}{/*\ Display\ the\ vehicle's\ current\ status\ */}}
+\DoxyCodeLine{00084\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vehicle_ab2df60cb9ce6763e6b4bda44a5afbab0}{displayDashboard}}();}
+\DoxyCodeLine{00085\ \ \ \ \ \textcolor{comment}{/*\ Run\ diagnostics\ to\ check\ vehicle\ status\ */}}
+\DoxyCodeLine{00086\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vehicle_ab780a8173af70cb882f8a7d21ffa6c3f}{runDiagnostics}}();}
+\DoxyCodeLine{00087\ \ \ \ \ \textcolor{comment}{/*\ Control\ the\ vehicle\ behavior\ (e.g.,\ Adaptive\ Cruise\ Control)\ */}}
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_vehicle_a03d41e8f6ddc43fb4fd40188d17f718c}{controlVehicle}}();}
+\DoxyCodeLine{00089\ \};}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ \textcolor{preprocessor}{\#endif\ \ }}
+
+\end{DoxyCode}

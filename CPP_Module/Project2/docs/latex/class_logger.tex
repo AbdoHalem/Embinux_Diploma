@@ -1,0 +1,103 @@
+\doxysection{Logger Class Reference}
+\hypertarget{class_logger}{}\label{class_logger}\index{Logger@{Logger}}
+
+
+This class is for logging messages.  
+
+
+
+
+{\ttfamily \#include $<$Logger.\+hpp$>$}
+
+
+
+Collaboration diagram for Logger\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=155pt]{class_logger__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_logger_abe4fa80c931542de2b96047a0e204683}{log}} (const std\+::string \&message, \mbox{\hyperlink{_logger_8hpp_aca1fd1d8935433e6ba2e3918214e07f9}{Log\+Level}} level, \mbox{\hyperlink{_logger_8hpp_a30a5879c4955b5fe9920db6bab79f721}{Output\+Destination}} dest=FILE\+\_\+\+ONLY)
+\begin{DoxyCompactList}\small\item\em Function to log messages in the log file only or in console too. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_logger_acb668a9e186a25fbaad2e4af6d1ed00a}{\texorpdfstring{$\sim$}{\string~}\+Logger}} ()
+\begin{DoxyCompactList}\small\item\em Destroy the \doxylink{class_logger}{Logger}\+:\+: \doxylink{class_logger}{Logger} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_logger}{Logger}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_logger_afec28ae6d7bdf8f6a0734cb20756de10}{get\+Instance}} ()
+\begin{DoxyCompactList}\small\item\em Static function to get the singleton object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class is for logging messages. 
+
+This class is designed as singleton Pattern 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_logger_acb668a9e186a25fbaad2e4af6d1ed00a}\index{Logger@{Logger}!````~Logger@{\texorpdfstring{$\sim$}{\string~}Logger}}
+\index{````~Logger@{\texorpdfstring{$\sim$}{\string~}Logger}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Logger()}{\string~Logger()}}
+{\footnotesize\ttfamily \label{class_logger_acb668a9e186a25fbaad2e4af6d1ed00a} 
+Logger\+::\texorpdfstring{$\sim$}{\string~}\+Logger (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Destroy the \doxylink{class_logger}{Logger}\+:\+: \doxylink{class_logger}{Logger} object. 
+
+Destructor 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_logger_afec28ae6d7bdf8f6a0734cb20756de10}\index{Logger@{Logger}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{getInstance()}{getInstance()}}
+{\footnotesize\ttfamily \label{class_logger_afec28ae6d7bdf8f6a0734cb20756de10} 
+\mbox{\hyperlink{class_logger}{Logger}} \texorpdfstring{$\ast$}{*} Logger\+::get\+Instance (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Static function to get the singleton object. 
+
+Public method
+
+\begin{DoxyReturn}{Returns}
+Logger\texorpdfstring{$\ast$}{*} \+: pointer to the static object of \doxylink{class_logger}{Logger} class 
+\end{DoxyReturn}
+\Hypertarget{class_logger_abe4fa80c931542de2b96047a0e204683}\index{Logger@{Logger}!log@{log}}
+\index{log@{log}!Logger@{Logger}}
+\doxysubsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily \label{class_logger_abe4fa80c931542de2b96047a0e204683} 
+void Logger\+::log (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{message}{, }\item[{\mbox{\hyperlink{_logger_8hpp_aca1fd1d8935433e6ba2e3918214e07f9}{Log\+Level}}}]{level}{, }\item[{\mbox{\hyperlink{_logger_8hpp_a30a5879c4955b5fe9920db6bab79f721}{Output\+Destination}}}]{dest}{ = {\ttfamily FILE\+\_\+ONLY}}\end{DoxyParamCaption})}
+
+
+
+Function to log messages in the log file only or in console too. 
+
+Public method 
+\begin{DoxyParams}{Parameters}
+{\em message} & String of the message content \\
+\hline
+{\em level} & Level of the log message \\
+\hline
+{\em dest} & Destination to log the message \\
+\hline
+\end{DoxyParams}
+\begin{quote}
+Get current time and write it in the log file \end{quote}
+
+
+\begin{quote}
+Add log level \end{quote}
+
+
+\begin{quote}
+Add the log message \end{quote}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_logger_8hpp}{Logger.\+hpp}}\item 
+D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\mbox{\hyperlink{_logger_8cpp}{Logger.\+cpp}}\end{DoxyCompactItemize}

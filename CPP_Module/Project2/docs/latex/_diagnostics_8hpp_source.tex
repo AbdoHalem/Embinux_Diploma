@@ -1,0 +1,43 @@
+\doxysection{D\+:/\+Engineering/\+Embedded\+\_\+\+Linux/\+Abdulaal\+\_\+\+Diploma/\+CPP\+\_\+\+Module/\+OOP/\+Tasks/\+Project2/\+Code/\+Diagnostics.hpp}
+\hypertarget{_diagnostics_8hpp_source}{}\label{_diagnostics_8hpp_source}\mbox{\hyperlink{_diagnostics_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ \_\_DIAGNOSTICS\_\_H\_\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ \_\_DIAGNOSTICS\_\_H\_\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00016\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_speed___sensor_8hpp}{Speed\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00017\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_radar___sensor_8hpp}{Radar\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00018\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_temp___sensor_8hpp}{Temp\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_battery___sensor_8hpp}{Battery\_Sensor.hpp}}"{}}}
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_logger_8hpp}{Logger.hpp}}"{}}}
+\DoxyCodeLine{00021\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_diagnostics}{Diagnostics}}}
+\DoxyCodeLine{00028\ \{}
+\DoxyCodeLine{00029\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{comment}{/*\ Pointers\ to\ sensors\ for\ monitoring\ */}}
+\DoxyCodeLine{00036\ \ \ \ \ \mbox{\hyperlink{class_speed___sensor}{Speed\_Sensor}}*\ speedSensor;}
+\DoxyCodeLine{00042\ \ \ \ \ \mbox{\hyperlink{class_radar___sensor}{Radar\_Sensor}}*\ radarSensor;}
+\DoxyCodeLine{00048\ \ \ \ \ \mbox{\hyperlink{class_temp___sensor}{Temp\_Sensor}}*\ tempSensor;}
+\DoxyCodeLine{00054\ \ \ \ \ \mbox{\hyperlink{class_battery___sensor}{Battery\_Sensor}}*\ battery;}
+\DoxyCodeLine{00060\ \ \ \ \ \mbox{\hyperlink{class_logger}{Logger}}*\ logger;\ \ \ \ \ \textcolor{comment}{/*\ Singleton\ logger\ */}\ }
+\DoxyCodeLine{00061\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{comment}{/*\ Parameterized\ Constructor\ */}}
+\DoxyCodeLine{00063\ \ \ \ \ \mbox{\hyperlink{class_diagnostics_a79b857c3b41d77d08729e0c23c5c91fa}{Diagnostics}}(\mbox{\hyperlink{class_speed___sensor}{Speed\_Sensor}}*\ speed,\ \mbox{\hyperlink{class_radar___sensor}{Radar\_Sensor}}*\ radar,\ \mbox{\hyperlink{class_temp___sensor}{Temp\_Sensor}}*\ temp,\ \mbox{\hyperlink{class_battery___sensor}{Battery\_Sensor}}*\ batt);}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{comment}{/*\ Default\ Destructor\ */}}
+\DoxyCodeLine{00065\ \ \ \ \ \mbox{\hyperlink{class_diagnostics_ad05cd98138d8ef3a0c1284412fbddd6b}{\string~Diagnostics}}();}
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{comment}{/*\ Method\ to\ run\ car\ diagnostics\ */}}
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_diagnostics_a0784d25e56ed4ed949f24357384c6992}{runDiagnostics}}();}
+\DoxyCodeLine{00068\ \ \ \ \ \textcolor{comment}{/*\ Check\ Speed\ */}}
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_diagnostics_ab99cf73beb641457aa0819f9c34d308b}{checkSpeed}}();}
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{comment}{/*\ Check\ Distance\ */}}
+\DoxyCodeLine{00071\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_diagnostics_aaf79345706206d30b5ecc80bd48f9d35}{checkDistance}}();}
+\DoxyCodeLine{00072\ \ \ \ \ \textcolor{comment}{/*\ Check\ Temperature\ */}}
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_diagnostics_a6951d6c46441f61e3de97e02e22962e3}{checkTemperature}}();}
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{comment}{/*\ Check\ Battery\ */}}
+\DoxyCodeLine{00075\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_diagnostics_a46267b6af869d3886001d7c5fc393a1f}{checkBattery}}();}
+\DoxyCodeLine{00076\ \};}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00078\ \textcolor{preprocessor}{\#endif\ \ }}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00080\ }
+
+\end{DoxyCode}
