@@ -1,5 +1,0 @@
-<map id="Radar_Sensor" name="Radar_Sensor">
-<area shape="rect" id="Node000001" title="This class is for the radar sensor." alt="" coords="5,187,128,320"/>
-<area shape="rect" id="Node000002" href="$class_sensor.html" title="This is an interface Class provides the main methods inherited in all sensors." alt="" coords="26,5,107,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,153,69,187,64,187,64,153"/>
-</map>

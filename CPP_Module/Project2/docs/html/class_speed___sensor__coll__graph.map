@@ -1,5 +1,0 @@
-<map id="Speed_Sensor" name="Speed_Sensor">
-<area shape="rect" id="Node000001" title="This class is for the car&#39;s speed sensor." alt="" coords="5,187,129,341"/>
-<area shape="rect" id="Node000002" href="$class_sensor.html" title="This is an interface Class provides the main methods inherited in all sensors." alt="" coords="27,5,108,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,154,70,187,65,187,65,154"/>
-</map>

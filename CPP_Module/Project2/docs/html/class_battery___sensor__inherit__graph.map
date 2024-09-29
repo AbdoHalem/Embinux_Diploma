@@ -1,5 +1,0 @@
-<map id="Battery_Sensor" name="Battery_Sensor">
-<area shape="rect" id="Node000001" title="This class is for the car battery." alt="" coords="5,187,135,341"/>
-<area shape="rect" id="Node000002" href="$class_sensor.html" title="This is an interface Class provides the main methods inherited in all sensors." alt="" coords="29,5,111,139"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,154,73,187,67,187,67,154"/>
-</map>
