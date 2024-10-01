@@ -21,10 +21,3 @@ charge, or unsafe proximity to another vehicle)
 ## Logger:
 Single instance logger to be used among all the classes for logging
 
-### Project Structure:
-- **Sensor Interface**: A base interface class, with sensor types like `TemperatureSensor`, `SpeedSensor`, `RadarSensor`, and `Battery` inheriting from it.
-- **Adaptive Cruise Control (ACC)**: This class includes all sensor data and manages vehicle speed adjustments and braking based on sensor inputs.
-- **Diagnostics Class**: Responsible for checking and diagnosing all sensors, as well as the ACC system, to ensure everything operates within safe parameters.
-- **Vehicle Class**: A high-level class used in the main function, encapsulating all other classes (sensors, ACC, diagnostics) to simulate the vehicle system.
-- **Logger Class**: Implemented using the **Singleton pattern**, ensuring a single logging instance across all classes for centralized logging.
-
